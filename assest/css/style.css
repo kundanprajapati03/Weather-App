@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    min-height: 100vh;
+    background: url(/assest/images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.heading{
+    text-align: center;
+    margin-top: 80px;
+    color: white;
+    text-shadow: 1px 1px 22px white;
+}
+.container {
+    width: 95%;
+    max-width: 500px;
+    background: rgba(255, 255, 255, .1);
+    color: white;
+    text-align: center;
+    margin: 20px auto;
+    padding: 40px;
+    border: 2px solid white;
+    border-radius: 30px;
+    box-shadow: 1px 2px 5px white;
+}
+.error{
+    margin-top: 8px;
+    display: none;
+}
+.weather-container{
+    display: none;
+}
+
+.top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top input {
+    width: 80%;
+    background-color: #fff;
+    outline: 0;
+    border: 0;
+    padding: 10px 20px;
+    margin-right: 16px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.top button {
+    width: 20%;
+    background-color: #fff;
+    outline: 0;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* .top input:hover,
+.top button:hover{
+    border: 2px solid gray;
+} */
+
+/* Middle section styling */
+.weather-image {
+    margin-top: 20px;
+    width: 180px;
+}
+
+.middle h1 {
+    font-size: 35px;
+    font-weight: 700;
+}
+.middle h1 sup{
+    font-size: 18px;
+    
+}
+
+.middle h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: -10px;
+}
+
+/* bottem styling start */
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.bottom .col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.bottom .col i{
+    font-size: 45px;
+    margin-right: 10px
+}
+.humidity,
+.wind {
+    font-size: 1.3em;
+    font-weight: 800;
+}
+.name {
+    font-size: .8em;
+}

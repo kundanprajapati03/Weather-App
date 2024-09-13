@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="assest/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <h1 class="heading">Weather App</h1>
+    <div class="container">
+        <div class="top">
+            <input type="text" placeholder="Enter city name..." id="cityName">
+            <button>
+                <i class="fa-solid fa-magnifying-glass" id="searchBtn"></i>
+            </button>
+        </div>
+        <div class="error">
+            <p>invalid City Name</p>
+        </div>
+        <div class="weather-container">
+            <div class="middle">
+                <img src="assest/images/clouds.png" class="weather-image" id="weather-image">
+                <h1 class="temp">00<sup>°C</sup></h1>
+                <h2 class="city">City Name</h2>
+            </div>
+
+            <div class="bottom">
+                <div class="col">
+                    <!-- <img src="assest/images/humidity.png" alt="" srcset=""> -->
+                    <i class="fa-solid fa-water"></i>
+                    <div>
+                        <p class="humidity">00 %</p>
+                        <p class="name">Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <!-- <img src="assest/images/wind.png" alt="" srcset=""> -->
+                    <i class="fa-solid fa-wind"></i>
+                    <div>
+                        <p class="wind">00 km/h</p>
+                        <p class="name">Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assest/javaScript/main.js"></script>
+</body>
+
+</html>
